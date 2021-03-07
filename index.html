@@ -175,7 +175,7 @@
 					</section>
 
 					<section>
-						<h3>For creating BIDS datasets</h3>
+						<h3>For BIDS dataset creation</h3>
 						<p>
 							<img data-src="images/heudiconv.png" alt="reveal.js logo" style="height: 420px; margin: 0 auto 0.5rem auto; background: transparent;" class="demo-logo">
 						</p>
@@ -191,7 +191,7 @@
 					</section>
 
 					<section>
-						<h3>For easily querying files</h3>
+						<h3>For dataset query</h3>
 
 						<p>
 							<small>
@@ -200,7 +200,7 @@
 
 									<a href="https://github.com/bids-standard/pybids">https://github.com/bids-standard/pybids</a>
 
-									<pre><code>
+									<pre><code data-trim>
 >>> from bids import BIDSLayout
 >>> layout = BIDSLayout('/home/data/ds000117')
 >>> layout.get_subjects()
@@ -212,7 +212,7 @@
 
 									<a href="https://github.com/bids-standard/bids-matlab">https://github.com/bids-standard/bids-matlab</a>
 
-									<pre><code>
+									<pre><code data-trim>
 >>> BIDS = bids.layout('/home/data/ds000117');
 >>> bids.query(BIDS, 'subjects')
 									</code></pre>
@@ -226,7 +226,7 @@
 					</section>
 
 					<section>
-						<h3>For analyzing</h3>
+						<h3>For analysis</h3>
 						<p>
 							A <a style="color:chocolate">number</a> of <a style="color:chocolate">processing pipelines</a> handling BIDS datasets (BIDS Apps) are <a style="color:chocolate">available</a>, ranging from <a style="color:dodgerblue">quality control</a> to <a style="color:dodgerblue">preprocessing</a>, <a style="color:dodgerblue">connectome mapping</a>, and <a style="color:dodgerblue">statistical analysis</a> - and maybe one of yours in the future!
 						</p>
